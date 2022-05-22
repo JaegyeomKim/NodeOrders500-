@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Orders500Data</title>
+    <link rel="stylesheet" text="text/css" href="css/site.css" />
+</head>
+<body>
+    <h2>Add New Order</h2>
+    <div>
+        <select id="personSelect"></select> <select id="storeSelect"></select> <select id="cdSelect"></select><input type="text" placeholder="Price" id="howmuch" size="5" />
+        <input type="button" value="Add Order" onclick="addData();" />
+    </div>
+    <br /><br /><br /><br />
+    <h2>Get total sales for Store</h2>
+    <h3>Choose the city name: </h3><select id="storeSelect2"></select>
+    <input type="button" value="Get Store Data" onclick="StoreData();" />
+    <br /><br />
+    <div id="description">
+    </div>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
+    <script src="/js/site.js"></script>
+
+
+</body>
+</html>
